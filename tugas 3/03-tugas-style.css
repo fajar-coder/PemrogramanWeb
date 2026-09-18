@@ -69,3 +69,13 @@ body {
     outline: none;
     background-color: #000;
 }
+
+/* Bukti Spesifisitas dan State Modifier BEM */
+.media-card--featured {
+    border: 2px solid #3b82f6;
+}
+
+.media-card.media-card--featured .media-card__desc {
+    color: #1d4ed8;
+    font-weight: 600;
+}
