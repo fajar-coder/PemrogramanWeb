@@ -79,3 +79,23 @@ body {
     color: #1d4ed8;
     font-weight: 600;
 }
+
+/* Gaya Kontainer Audio Tambahan */
+.media-card__audio-container {
+    padding: 0 20px 20px 20px;
+    border-top: 1px solid #e2e8f0;
+    margin-top: 15px;
+    padding-top: 15px;
+}
+
+.media-card__audio-label {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #475569;
+    margin-bottom: 8px;
+}
+
+.media-card__audio-container audio {
+    width: 100%;
+    outline: none;
+}

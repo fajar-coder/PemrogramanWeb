@@ -24,11 +24,19 @@
                 </div>
                 <!-- Pemutar Video dengan Poster dan Format Cadangan -->
                 <div class="media-card__video-container">
-                    <video controls poster="images/video-poster.jpg" preload="metadata" width="100%">
-                        <source src="media/kuliah-web.webm" type="video/webm">
-                        <source src="media/kuliah-web.mp4" type="video/mp4">
+                    <video controls muted poster="images/video-poster.jpg" preload="metadata" width="100%">
+                        <source src="media/kuliah.webm" type="video/webm">
+                        <source src="media/kuliah.mp4" type="video/mp4">
                         Maaf, peramban Anda tidak mendukung pemutar video HTML5.
                     </video>
+                </div>
+                <!-- Pemutar Audio Tambahan (Podcast Sesi Kuliah) -->
+                <div class="media-card__audio-container">
+                    <p class="media-card__audio-label">🎧 Audio Sesi Tanya Jawab Kuliah:</p>
+                    <audio controls preload="none">
+                        <source src="media/audio-podcast.mp3" type="audio/mpeg">
+                        Maaf, peramban Anda tidak mendukung pemutar audio HTML5.
+                    </audio>
                 </div>
             </div>
         </section>
