@@ -9,7 +9,21 @@
 <body>
 
     <main>
-        <!-- Konten kartu multimedia akan ditaruh di sini pada tahap berikutnya -->
+        <section class="multimedia-section">
+            <div class="media-card">
+                <!-- Elemen Picture dengan Art Direction & WebP Responsif -->
+                <picture class="media-card__cover">
+                    <source media="(min-width: 1024px)" srcset="images/cover-desktop.webp" type="image/webp">
+                    <source media="(min-width: 768px)" srcset="images/cover-tablet.webp" type="image/webp">
+                    <img src="images/cover-mobile.webp" alt="Ilustrasi Sampul Kuliah Pemrograman Web" loading="lazy">
+                </picture>
+
+                <div class="media-card__content">
+                    <h2 class="media-card__title">Kuliah Umum: Arsitektur Modern Web Development</h2>
+                    <p class="media-card__desc">Pelajari bagaimana merancang aplikasi web modern yang responsif, cepat, dan menerapkan standar industri terkini.</p>
+                </div>
+            </div>
+        </section>
     </main>
 
 </body>
