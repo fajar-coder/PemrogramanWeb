@@ -79,3 +79,10 @@ body {
     color: #1d4ed8;
     font-weight: 600;
 }
+
+.media-card__cover img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
